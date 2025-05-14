@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Layout Design</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 id="page-title">Isaaq's Website</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid-layout">
+    <!-- MAIN CONTENT -->
+    <section class="content">
+      <h2>The Night I Discovered the Magic of Code</h2>
+      <p id="intro">
+        It was a quiet Thursday night. The power had flickered earlier, leaving the streets dim, but my laptop’s glow kept the room alive. I wasn’t looking for anything special—just tinkering with a simple HTML page.
+      </p>
+      <p>
+        I added a button and gave it some style. Then came a click—and with it, a pop-up message I’d coded myself. “Hello, World,” it said. But to me, it felt like the start of a conversation with the universe. A line of code had created something. I was hooked.
+      </p>
+      <p>
+        Since that night, I've spent countless hours exploring how code powers everything—from the apps on my phone to the robots in factories. Every project feels like building a piece of the future, and every bug I fix feels like solving a tiny mystery.
+      </p>
+      <p>
+        I’ve realized that programming isn’t just about commands and syntax. It’s about creativity, problem-solving, and sometimes, telling stories—like this one.
+      </p>
+
+      <!-- JavaScript interaction buttons -->
+      <button onclick="changeContent()">Change Content</button>
+      <button onclick="addBox()">Add Box</button>
+      <button onclick="removeBox()">Remove Box</button>
+      <div id="box-container"></div>
+    </section>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h3>About Me</h3>
+      <p>
+        Hi, I'm Isaaq Mwaura, a student, creator, and lifelong learner. I’m passionate about software engineering, robotics, and building cool things that help people.
+      </p>
+
+      <h4>Fun Facts</h4>
+      <ul>
+        <li>I built a robot car from lego blocks</li>
+        <li>Currently learning HTML, CSS, and Python</li>
+        <li>Favorite song: “I Can Only Imagine”</li>
+      </ul>
+
+      <h4>Quote of the Day</h4>
+      <blockquote>
+        "Any sufficiently advanced technology is indistinguishable from magic." – Arthur C. Clarke
+      </blockquote>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Isaaq Mwaura</p>
+  </footer>
+
+  <!-- Link to JavaScript file -->
+  <script src="scrpt.js"></script>
+</body>
+</html>
